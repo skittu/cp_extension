@@ -8,4 +8,4 @@
 4. Make the developer mode on
 5. Click Load unpacked extension
 6. Select the downloaded folder
-7. Now open any Codechef problem page and yousubmission box there only. 
+7. Now open any Codechef problem page and you see submission box there only. 
