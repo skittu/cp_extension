@@ -6,7 +6,7 @@ chrome.runtime.onMessage.addListener(function(a){
     
     $.get(x,function(data){
         
-        console.log(data);
+        //console.log(data);
         $('.sidebar').append(data);
         $("form input[name=form_build_id]").attr("value",a.form_build_id);
         $("form input[name=form_build_id]").attr("id",a.form_build_id);
