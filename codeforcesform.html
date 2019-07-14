@@ -1,0 +1,153 @@
+<form class="submit-form" method="post" action="?csrf_token=4f6f3935ec442165fd9f7269890dd001" enctype="multipart/form-data"><input type='hidden' name='csrf_token' value='4f6f3935ec442165fd9f7269890dd001'/>
+    <input type="hidden" name="ftaa" value=""/>
+    <input type="hidden" name="bfaa" value=""/>
+    <input type="hidden" name="action" value="submitSolutionFormSubmitted"/>
+
+    <table class="table-form" style="width: 90%;">
+        <tr>
+            <td class="field-name">Problem:</td>
+            <td>
+                            <input name="submittedProblemCode" value=""/>
+                                    <span class="small notice">Enter problem code, like 33A</span>
+            </td>
+        </tr>
+        <tr class="subscription-row">
+            <td>&nbsp;</td>
+            <td>
+                <div class="shiftUp error__submittedProblemIndex" style="width: 300px;">
+                    <span class="error for__submittedProblemIndex" style="display: none;">&nbsp;</span>
+                    <span class="notice for__submittedProblemIndex">&nbsp;</span>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="field-name">Language:</td>
+            <td>
+                <select style="width: 300px;" name="programTypeId"">
+                <option value="43"
+                        >GNU GCC C11 5.1.0</option>
+                <option value="52"
+                        >Clang++17 Diagnostics</option>
+                <option value="42"
+                        >GNU G++11 5.1.0</option>
+                <option value="50"
+                        >GNU G++14 6.4.0</option>
+                <option value="54"
+                        selected="selected">GNU G++17 7.3.0</option>
+                <option value="2"
+                        >Microsoft Visual C++ 2010</option>
+                <option value="59"
+                        >Microsoft Visual C++ 2017</option>
+                <option value="9"
+                        >C# Mono 5.18</option>
+                <option value="28"
+                        >D DMD32 v2.086.0</option>
+                <option value="32"
+                        >Go 1.12.6</option>
+                <option value="12"
+                        >Haskell GHC 8.6.3</option>
+                <option value="36"
+                        >Java 1.8.0_162</option>
+                <option value="48"
+                        >Kotlin 1.3.10</option>
+                <option value="19"
+                        >OCaml 4.02.1</option>
+                <option value="3"
+                        >Delphi 7</option>
+                <option value="4"
+                        >Free Pascal 3.0.2</option>
+                <option value="51"
+                        >PascalABC.NET 3.4.2</option>
+                <option value="13"
+                        >Perl 5.20.1</option>
+                <option value="6"
+                        >PHP 7.2.13</option>
+                <option value="7"
+                        >Python 2.7.15</option>
+                <option value="31"
+                        >Python 3.7.2</option>
+                <option value="40"
+                        >PyPy 2.7 (7.1.1)</option>
+                <option value="41"
+                        >PyPy 3.6 (7.1.1)</option>
+                <option value="8"
+                        >Ruby 2.0.0p645</option>
+                <option value="49"
+                        >Rust 1.35.0</option>
+                <option value="20"
+                        >Scala 2.12.8</option>
+                <option value="34"
+                        >JavaScript V8 4.8.0</option>
+                <option value="55"
+                        >Node.js 9.4.0</option>
+                <option value="14"
+                        >ActiveTcl 8.5</option>
+                <option value="15"
+                        >Io-2008-01-07 (Win32)</option>
+                <option value="17"
+                        >Pike 7.8</option>
+                <option value="18"
+                        >Befunge</option>
+                <option value="22"
+                        >OpenCobol 1.0</option>
+                <option value="25"
+                        >Factor</option>
+                <option value="26"
+                        >Secret_171</option>
+                <option value="27"
+                        >Roco</option>
+                <option value="33"
+                        >Ada GNAT 4</option>
+                <option value="38"
+                        >Mysterious Language</option>
+                <option value="39"
+                        >FALSE</option>
+                <option value="44"
+                        >Picat 0.9</option>
+                <option value="45"
+                        >GNU C++11 5 ZIP</option>
+                <option value="46"
+                        >Java 8 ZIP</option>
+                <option value="47"
+                        >J</option>
+                <option value="56"
+                        >Microsoft Q#</option>
+                <option value="57"
+                        >Text</option>
+                </select> <div><span class="programTypeNotice notice smaller"></span></div>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="field-name">Source code:</td>
+            <td style="padding-bottom: 0.7em;" class="aceEditorTd">
+    <textarea id="sourceCodeTextarea" name="source" style="box-sizing: border-box;width: 100%; height: 370px;"></textarea>
+    <div class="small tabSizeDiv" style="float: right; margin-top: 0.2em;">
+        <label for="tabSizeInput" style="margin-right: 1em;">Tab size:</label>
+        <input style="width:3em;" type="number" id="tabSizeInput" name="tabSize" value="4"/>
+    </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="field-name">Or choose file:</td>
+            <td>
+                <input name="sourceFile" type="file" value=""/>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td colspan="2">
+                <div style="text-align: center;">
+
+                    <div style="display: inline-block; position: relative;">
+                        <input class="submit" type="submit" value="Submit"/>
+                        <img class="ajax-loading-gif" src="//sta.codeforces.com/s/85226/images/ajax-loading-24x24.gif"/>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+</form>

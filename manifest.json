@@ -8,16 +8,16 @@
   ],
   "content_scripts":[
     {
-      "matches":["https://www.codechef.com/*"],
+      "matches":["https://www.codechef.com/*","https://codeforces.com/*","http://codeforces.com/*"],
       "run_at": "document_idle",
       "js":["jquery-3.4.1.min.js","content.js"]
     }
   ],
   "background":{
-    "scripts":["jquery-3.4.1.min.js","background.js"]
+    "scripts":["jquery-3.4.1.min.js","background.js"],"persistent": true
   },
   "web_accessible_resources": [
-    "codechefform.html"
+    "codechefform.html","codeforcesform.html"
   ]
  
 }
